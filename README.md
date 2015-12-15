@@ -4,6 +4,7 @@ Open Declaration com.emc.test.NumCountThread
 
 
 The thought for this testing is commented as following ASCII document: 
+```
 
  +---------------------------------+                                          +--------+
  |         File                    |             +-----------------------+    |        |
@@ -28,7 +29,7 @@ The thought for this testing is commented as following ASCII document:
  |                                 |                                          |        |
  |                                 |                                          |        |
  +---------------------------------+                                          +--------+
-
+```
 
  
 > Notice
@@ -40,3 +41,9 @@ The thought for this testing is commented as following ASCII document:
 ### Author:
 Jason Wang
 
+### Main Entry:
+
+* [NumCountThread](https://github.com/iamtangram/CalculationTest/blob/master/src/com/emc/test/NumCountThread.java)
+
+### Unit test:
+* [CalculationTest](https://github.com/iamtangram/CalculationTest/blob/master/test/com/emc/test/CalculationTest.java)
