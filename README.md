@@ -47,3 +47,24 @@ Jason Wang
 
 ### Unit test:
 * [CalculationTest](https://github.com/iamtangram/CalculationTest/blob/master/test/com/emc/test/CalculationTest.java)
+
+### How to Run in Commandline:
+* Compile
+```sh
+mkdir target
+javac src\com\emc\test\*.java -d target/
+cd target
+jar -cf CalulationTest.jar com/emc/test/*.class
+```
+* Run 
+Keep in the target folder.
+```java
+java -Djava.ext.dirs=. com.emc.test.NumCountThread <file you need to calculate> [#Num of max lines] [#Num of Threads]
+```
+* Example
+```
+d:\workspace\CalculationTest\target>java -Djava.ext.dirs=. com.emc.test.NumCountThread ../test/resources/1.txt 3000 10
+Total execution time 63 ms.
+Total number: 15
+Total sum: 507.0
+```
